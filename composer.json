@@ -1,0 +1,22 @@
+{
+    "name": "wubbleyou/yii2-widget-jquery-postcodes",
+    "description": "Attaches a jquery.postcodes instance to a form",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","jquery", "postcodes"],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/jquery.postcodes": "3.0.1"
+    },
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Wubbleyou Ltd",
+            "email": "package@wubbleyou.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "wubbleyou\\jquerypostcodes\\": ""
+        }
+    }
+}
